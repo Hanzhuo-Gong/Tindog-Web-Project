@@ -1,0 +1,172 @@
+body {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* ----------------------------Title --------------------- */
+#title {
+  background-color: #ff4c68;
+}
+
+/* Only the title container-fluid has different padding rules */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.web-title {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.phone-pic {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/* Logo */
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.web-title-button {
+  text-align: left;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* ------------------------Features----------------------- */
+/* Padding the whole elements */
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.fea-intro {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Align the text to the center,and padding to keep the distance */
+.feature-box {
+  padding: 5%
+}
+
+.fea-desciption {
+  color: #818181;
+}
+
+.fea-img {
+  color: #ef8172;
+  font-size: 3rem;
+  padding-bottom: 5%;
+}
+
+.fea-img:hover {
+  color: #ff4c68;
+}
+
+/* -----------------------Testimonials---------------------- */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%; /*make the img smaller*/
+  margin: 20px;
+}
+
+
+/* -------------------------Press-------------------------- */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  padding: 20px 20px 20px 50px;
+}
+/* ------------------------Pricing------------------------- */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* When the browser getting too small, change the layout*/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone-pic {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* ------------------------Call to Action------------------- */
+#cta {
+  background-color: #ff4c68;
+}
+
+.cta-text {
+  font-weight: 900;
+  color: white;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.end-download-button {
+  margin: 5% 3% 10% 0;
+}
+/* -------------------------Footer--------------------------- */
+.s-icons {
+  padding: 0 5px;
+  color: black;
+}
+
+.s-icons:hover {
+  color: blue;
+}
+
+.copyright {
+  color: grey;
+  padding-top: 1%;
+}
